@@ -1,0 +1,30 @@
+// ----------  layout
+// ------------------------------------------------------------------------------
+html {
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-size: 14px;
+  font-weight: 400;
+  color: $black;
+  font-family: $font-default;
+  width: 100vw;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 1370px;
+  padding: 0 20px;
+  width: 100%;
+}

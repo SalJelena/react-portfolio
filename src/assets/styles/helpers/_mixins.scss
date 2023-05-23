@@ -1,0 +1,35 @@
+// Hover mixin only for desktop devices
+// to include use @include hover {your hover styles} can also include elements
+@mixin hover {
+  @media only screen and (min-width: 1025px) {
+    .no-touch &:hover {
+      @content;
+    }
+  }
+}
+
+
+// ----------  Animation mixin
+// ------------------------------------------------------------------------------
+
+// @include animation {transition: color 3s ease;}
+@mixin animation {
+  .loaded & {
+    @content;
+  }
+}
+
+//responsive font
+@mixin responsive-font($minS, $maxS, $minW, $maxW) {
+  font-size: #{$minS}px;
+  @media all and (min-width: #{$minW}px) and (max-width: #{$maxW}px) {
+    font-size: calc(#{$minS}px + (#{$maxS} - #{$minS}) * (100vw - #{$minW}px) / (#{$maxW} - #{$minW}));
+  }
+  @media all and (min-width: #{$maxW}px) {
+    font-size: #{$maxS}px;
+  }
+}
+
+
+
+

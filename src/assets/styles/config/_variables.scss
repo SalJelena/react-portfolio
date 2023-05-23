@@ -1,0 +1,42 @@
+// ----------  variables
+// ------------------------------------------------------------------------------
+
+$font-default: 'Roboto', sans-serif;
+$font-headings: 'Jost', sans-serif;
+
+// Colors
+$white: #fff;
+$black: #333;
+$black-light: #555;
+$grey-light: #d9d9d9;
+$grey-lighter: #D6D6D6;
+$grey-blend: #f2f2f2;
+$green: #1daaa3;
+$black-dark: #000;
+$grey: #454545;
+$blue: #41BAE3;
+$blue-light: rgba(113, 203, 234, 1);
+$blue-light2: rgba(151, 217, 240, 1);
+$blue-light3: rgba(227, 245, 251, 1);
+$blue-dark: #17414f;
+$blue-dark2: #405A80;
+$yellow: #ffc12b;
+$red: #dc2f2f;
+
+$main-color: #80B4FF;
+$main-color-mix: rgba(160, 199, 255, 1);
+$main-color-mix2: rgba(185, 214, 255, 1);
+
+$title-color: #2D3F59;
+
+
+// ----------  Media queries breakpoints - Grid breakpoint
+// ------------------------------------------------------------------------------
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+) !default;
