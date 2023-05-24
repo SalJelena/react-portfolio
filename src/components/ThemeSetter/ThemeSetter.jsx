@@ -4,8 +4,6 @@ import ThemeContext from "../../context/ThemeContext.jsx";
 import {ImSun} from "react-icons/im";
 import {BsFillMoonFill} from "react-icons/bs";
 
-const themeOptions = [{ value: "light" }, { value: "dark" }];
-
 export default function ThemeSetter() {
     const [themeMode, setThemeMode] = useState("light")
     const { theme, setTheme } = useContext(ThemeContext);
@@ -17,7 +15,6 @@ export default function ThemeSetter() {
     useEffect(() => {
         setTheme(themeMode)
     }, [themeMode]);
-
 
     return (
         <div>
