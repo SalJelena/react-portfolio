@@ -1,4 +1,13 @@
 {
   "tabs": ["Home", "Portfolio", "Kontakt"],
-  "description": "Übersetzen Sie diesen Code hier."
+  "greeting": "Hallo",
+  "name": "Ich bin Jelena",
+  "information": "Frontend entwicklerin",
+  "description1": "Kenntnisse in verschiedenen Programmiersprachen und -technologien (HTML, CSS – SCSS, Javascript, ReactJS, Nodejs, Express, MongoDB), Code-Optimierung, SEO-Optimierung, browserübergreifende Entwicklung und auch die Gestaltung von Websites, die optisch ansprechend und benutzerfreundlich sind mit komplexen Funktionalitäten.",
+  "description2": "Ich bin immer der Herausforderung gewachsen, neue Technologien zu erlernen und mit neuen Designsystemen oder Programmiersprachen zu experimentieren.",
+  "description3": "Ich bin von Natur aus neugierig und ein Enthusiast für Webentwicklung und arbeite immer an einem Problem nach dem anderen – in Team-Brainstorming-Sitzungen oder allein beim Codieren.",
+  "hobbies": ["Star-Wars fan", "Sci-Fi", "Reisen", "Sprachen lernen"],
+  "lngExpl": "Spricht fließend Kroatisch, Englisch und Französisch und lernt Deutsch",
+  "skills": "Fähigkeiten und Technologien",
+  "contactTitle": "Kontaktiere mich"
 }

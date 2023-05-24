@@ -7,13 +7,22 @@ const Banner = () => {
 
 
     return (
-        <div>
-            {/*{t('learn')}*/}
-            <p>
-                <Trans i18nKey="description">
-                    Translate this code right here.
-                </Trans>
-            </p>
+        <div className="banner">
+            <div className="wrap">
+                <div className="banner__inner">
+                    <p>
+                        <Trans i18nKey="description1"></Trans>
+                    </p>
+                    <p>
+                        <Trans i18nKey="description2"></Trans>
+                    </p>
+                    <p>
+                        <Trans i18nKey="description3"></Trans>
+                    </p>
+                </div>
+            </div>
+
+
         </div>
     )
 }

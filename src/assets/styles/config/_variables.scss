@@ -1,33 +1,26 @@
 // ----------  variables
 // ------------------------------------------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-$font-default: 'Roboto', sans-serif;
-$font-headings: 'Jost', sans-serif;
+$font-default: 'Poppins', sans-serif;
+$font-special: 'Pangolin', cursive;
 
 // Colors
-$white: #fff;
-$black: #333;
-$black-light: #555;
-$grey-light: #d9d9d9;
-$grey-lighter: #D6D6D6;
-$grey-blend: #f2f2f2;
-$green: #1daaa3;
-$black-dark: #000;
-$grey: #454545;
-$blue: #41BAE3;
-$blue-light: rgba(113, 203, 234, 1);
-$blue-light2: rgba(151, 217, 240, 1);
-$blue-light3: rgba(227, 245, 251, 1);
-$blue-dark: #17414f;
-$blue-dark2: #405A80;
-$yellow: #ffc12b;
-$red: #dc2f2f;
-
-$main-color: #80B4FF;
-$main-color-mix: rgba(160, 199, 255, 1);
-$main-color-mix2: rgba(185, 214, 255, 1);
-
-$title-color: #2D3F59;
+$white: #fcfefe;
+$grey-light: #F4F4ED;
+$yellow-light: #f7e185;
+$yellow-lighter: #fffacd;
+$black: #393e46;
+$black-light: #30292F;
+$blue-light: #7FC8F8;
+$blue: #5AA9E6;
+$blue-dark: #151E3F;
+$grey: #808080;
+$purple: #5B4E77;
+$purple-dark: #3A3042;
+$charcoal: #2F394D;
+$green-light: #54cbca;
+$purple-light: #B7B5E4;
 
 
 // ----------  Media queries breakpoints - Grid breakpoint

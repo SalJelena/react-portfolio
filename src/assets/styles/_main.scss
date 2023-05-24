@@ -26,10 +26,18 @@
 # Layout
 -------------------------------------------------------------- */
 @import "layout/buttons";
+
 /* --------------------------------------------------------------
 //# Components
 -------------------------------------------------------------- */
-
+@import "../../components/NavBar/navBar";
+@import "../../components/Language/languageSelector";
+@import "../../components/Banner/banner";
+@import "../../components/Footer/footer";
+@import "../../components/PortfolioPannel/portfolioPannel";
+@import "../../components/ThemeSetter/themeSetter";
+@import "../../components/Controls/controls";
 
 //#Pages-------------------------------------------------------------- */
+@import "../../app";
 
