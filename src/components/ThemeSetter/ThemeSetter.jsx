@@ -17,12 +17,12 @@ export default function ThemeSetter() {
     }, [themeMode]);
 
     return (
-        <div>
+        <div className="theme__setter">
                 {
                     themeMode !== "light" ?
-                        <button onClick={changeThemeHandler}><ImSun/></button>
+                        <button onClick={changeThemeHandler} className="theme__setter-btn"><ImSun/></button>
                         :
-                        <button onClick={changeThemeHandler}><BsFillMoonFill/></button>
+                        <button onClick={changeThemeHandler} className="theme__setter-btn"><BsFillMoonFill/></button>
                 }
         </div>
     );

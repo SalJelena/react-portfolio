@@ -11,11 +11,9 @@ function App() {
         <>
             <ThemeProvider>
                 <Controls/>
-                <div className="myClass">
-                    <NavBar/>
-                    <Outlet/>
-                    <Footer/>
-                </div>
+                <NavBar/>
+                <Outlet/>
+                <Footer/>
             </ThemeProvider>
         </>
     )

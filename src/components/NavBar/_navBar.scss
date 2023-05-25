@@ -1,7 +1,73 @@
+
 .nav {
+  position: relative;
+
+  @include themed() {
+    color: t('text');
+    background: t('bg2')
+  }
+
+
+  &__list {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  &__item {
+    width: 20%;
+    text-align: center;
+    padding: 20px 0;
+
+    &:hover {
+      .nav__link {
+        @include themed() {
+          color: t('text-hover');
+        }
+      }
+
+      .nav__link::after {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+
+  &__link {
     @include themed() {
       color: t('text');
-      background: t('bg')
     }
+    font-family: $font-title;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    position: relative;
+    transition: 0.5s ease;
+
+    &:after {
+      content: '';
+      @include themed() {
+        background-image: url(t('underline'));
+      }
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      bottom: -20px;
+      left: 0;
+      visibility: hidden;
+      opacity: 0;
+      height: 20px;
+      transition: 0.3s ease;
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+
 
 }

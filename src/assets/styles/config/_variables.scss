@@ -1,26 +1,48 @@
 // ----------  variables
 // ------------------------------------------------------------------------------
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Pangolin&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 $font-default: 'Poppins', sans-serif;
 $font-special: 'Pangolin', cursive;
+$font-title: 'Outfit', sans-serif;
 
 // Colors
+
+//initial
 $white: #fcfefe;
-$grey-light: #F4F4ED;
-$yellow-light: #f7e185;
-$yellow-lighter: #fffacd;
+$grey-light: #d6d9ce;
+$grey: #808080;
 $black: #393e46;
 $black-light: #30292F;
+$charcoal: #2F394D;
+$white-light: #fcfefe;
+
+//yellow
+$yellow-light: #f7e185;
+$yellow-lighter: #FEFCF3;
+$yellow-bright: #e9ff70;
+
+//blue
 $blue-light: #7FC8F8;
-$blue: #5AA9E6;
-$blue-dark: #151E3F;
-$grey: #808080;
+$blue: #002233;
+$blue-dark: #00293d;
+
+//purple
 $purple: #5B4E77;
 $purple-dark: #3A3042;
-$charcoal: #2F394D;
-$green-light: #54cbca;
+
+//green
+$green-light: #a5ffd6;
 $purple-light: #B7B5E4;
+$green-bright: #00ffcc;
+
+//pink
+$peach: #FFDFD3;
+$cream: #f5cda7;
+$rose: #f7d6e0;
+
+//brown
+$brown: #d0b8ac;
 
 
 // ----------  Media queries breakpoints - Grid breakpoint

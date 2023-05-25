@@ -1,7 +1,7 @@
 {
   "tabs": ["Home", "Portfolio", "Contact"],
-  "greeting": "Hello",
-  "name": "I am Jelena",
+  "greeting": "Hello, I am",
+  "name": "Jelena",
   "information": "Frontend developer",
   "description1": "Knowledge of various programming languages and technologies (HTML, CSS - SCSS, Javascript, ReactJS, Nodejs, Express, MongoDB), code-optimization, SEO optimization, Cross-browser development, and making websites pretty to the eye and easy to use, also with complex functionalities.",
   "description2": "I am always up to the challenge of learning new technologies and experimenting with new design systems or programming languages.",
@@ -9,5 +9,6 @@
   "hobbies": ["Star-Wars fan", "Reading Sci-Fi", "Travelling", "Learning languages"],
   "lngExpl": "Fluent in Croatian, English and French, and learning German",
   "skills": "Skills & Technologies",
-  "contactTitle": "Contact me"
+  "contactTitle": "Contact me",
+  "downloadCV": "Download CV"
 }

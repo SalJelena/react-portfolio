@@ -1,0 +1,34 @@
+.language {
+  display: flex;
+  align-items: center;
+
+  &__btn {
+    position: relative;
+    margin-right: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  &__img {
+    width: 23px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__btn[disabled] {
+
+    &:after {
+      content: '';
+      position: absolute;
+      background: rgba($white, 0.7);
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+}

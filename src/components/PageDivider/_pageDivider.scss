@@ -1,0 +1,16 @@
+.divider__bg {
+  @include themed() {
+    color: t('text');
+    background: t('bg2')
+  }
+
+  height: 72px;
+  overflow: hidden;
+
+  svg {
+    @include themed() {
+      fill: t('fill')
+    }
+  }
+
+}

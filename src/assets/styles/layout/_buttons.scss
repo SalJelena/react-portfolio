@@ -21,4 +21,46 @@ button {
   }
 }
 
+.button {
+  font-size: 15px;
+  font-family: $font-title;
+  font-weight: 600;
+  padding: 10px 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $black;
+  border-radius: 40px;
+  box-shadow: 2px 2px 0px 0px #333;
+  transform: translate(-2px,-2px);
+  transition: 0.3s cubic-bezier(.5,2.5,.7,.7);
+
+  &__icon {
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+    bottom: -3px;
+  }
+
+  &:hover {
+    box-shadow: none;
+    transform: none;
+  }
+}
+
+.button--primary {
+  @include themed() {
+    color: t('text');
+    background: t('bg');
+  }
+}
+
+.button--secondary {
+  @include themed() {
+    color: t('text');
+    background: t('bg2');
+  }
+}
+
 

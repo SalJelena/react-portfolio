@@ -1,0 +1,20 @@
+
+.theme__setter {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+
+  &-btn {
+    @include themed() {
+      color: t('text');
+    }
+  }
+
+  &:hover {
+    .theme__setter-btn {
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+    }
+  }
+
+}

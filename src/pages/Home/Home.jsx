@@ -4,7 +4,7 @@ import PortfolioPannel from "../../components/PortfolioPannel/PortfolioPannel.js
 
 const Home = () => {
     return (
-        <div>
+        <div className="home">
             <Banner/>
             <PortfolioPannel/>
         </div>

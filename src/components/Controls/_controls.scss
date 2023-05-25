@@ -3,4 +3,15 @@
     color: t('text');
     background: t('bg2')
   }
+
+  padding: 20px 0;
+  width: 100%;
+
+  &__inner {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
 }
