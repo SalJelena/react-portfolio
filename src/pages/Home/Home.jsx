@@ -11,6 +11,7 @@ const Home = () => {
             <SkillsPanel/>
             <PageDivider separated={true}/>
             <PortfolioPannel/>
+            <PageDivider separated={false}/>
         </div>
     )
 }

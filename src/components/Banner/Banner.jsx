@@ -7,8 +7,6 @@ import {HiOutlineDownload} from "react-icons/hi";
 const Banner = () => {
     const {t, i18n} = useTranslation()
 
-
-
     return (
         <div className="banner">
             <div className="wrap">

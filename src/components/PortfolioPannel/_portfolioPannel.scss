@@ -1,0 +1,36 @@
+.portfolio {
+  padding: 20px 0 100px 0;
+  @include themed() {
+    color: t('text');
+    background-color: t('bg3');
+  }
+
+  &__title {
+    margin-bottom: 50px;
+    font-size: 50px;
+    text-align: center;
+    font-family: $font-title;
+    font-weight: 700;
+
+    @include themed() {
+      color: t('text');
+    }
+  }
+
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 0 60px;
+
+    @include media-breakpoint-down(md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include media-breakpoint-down(sm) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+}
