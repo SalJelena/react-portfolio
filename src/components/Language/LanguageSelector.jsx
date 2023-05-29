@@ -1,7 +1,7 @@
 import React from 'react'
 import {useTranslation} from "react-i18next";
-import DE from "../../assets/images/de-flag.png"
-import UK from "../../assets/images/uk-flag.png"
+// import DE from "../../assets/images/de-flag.png"
+// import UK from "../../assets/images/uk-flag.png"
 
 const LanguageSelector = () => {
     const {t, i18n} = useTranslation()
@@ -9,11 +9,11 @@ const LanguageSelector = () => {
     const lngs = {
         en: {
             nativeName: "English",
-            img: UK
+            name: "EN"
         },
         de: {
             nativeName: "Deutsch",
-            img: DE
+            name: "DE"
         }
     }
     return (
@@ -26,8 +26,9 @@ const LanguageSelector = () => {
                             onClick={() => i18n.changeLanguage(lng)}
                             disabled={i18n.resolvedLanguage === lng}
                     >
-                        <img src={lngs[lng].img} alt="image flag" className="language__img" />
-                        {/*<span className="language__text">{lngs[lng].nativeName}</span>*/}
+                        <span className="language__img">
+                            {lngs[lng].name}
+                        </span>
                     </button>
                 ))
             }

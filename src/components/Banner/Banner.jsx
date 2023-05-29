@@ -14,11 +14,10 @@ const Banner = () => {
             <div className="wrap">
                 <div className="banner__inner">
                     <div className="banner__left">
-
                         <div className="banner__img-holder">
                             <img src={profileImg} alt="profile image" className="banner__img" />
                         </div>
-                        <div className="banner__layer-img" style={{backgroundImage: "url(" + bgImage + ")"}}></div>
+                        <div className="banner__layer-img"></div>
                     </div>
 
                     <div className="banner__right">

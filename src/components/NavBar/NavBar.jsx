@@ -30,7 +30,7 @@ const NavBar = () => {
                     </div>
                 </div>
             </div>
-            <PageDivider/>
+            <PageDivider separated={false}/>
         </>
     )
 }

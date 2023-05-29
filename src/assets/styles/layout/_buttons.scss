@@ -52,14 +52,14 @@ button {
 .button--primary {
   @include themed() {
     color: t('text');
-    background: t('bg');
+    background: t('btn');
   }
 }
 
 .button--secondary {
   @include themed() {
-    color: t('text');
-    background: t('bg2');
+    color: t('fill');
+    background: t('btn-sec');
   }
 }
 

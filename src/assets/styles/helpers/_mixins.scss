@@ -36,20 +36,28 @@ $themes: (
         light: (
                 bg: $white-light,
                 bg2: $green-light,
+                bg3: $rose,
                 text: $charcoal,
                 text-hover: $charcoal,
                 text-accent: $charcoal,
                 fill: $white-light,
-                underline: "src/assets/images/svg/line-3.svg"
+                underline: "src/assets/images/svg/line-3.svg",
+                bgImg: "src/assets/images/svg/shape-2.svg",
+                btn: $white-light,
+                btn-sec: $green-light
         ),
         dark: (
                 bg: $blue-dark,
                 bg2: $blue,
+                bg3: $blue,
                 text: $white,
                 text-hover: $green-bright,
                 text-accent: $green-bright,
                 fill: $blue-dark,
-                underline: "src/assets/images/svg/line-4.svg"
+                underline: "src/assets/images/svg/line-4.svg",
+                bgImg: "src/assets/images/svg/shape-3.svg",
+                btn: $blue,
+                btn-sec: $green-light
         ),
 );
 

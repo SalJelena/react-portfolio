@@ -142,9 +142,13 @@
 
   &__img {
     width: 100%;
+    //filter: drop-shadow(0px 1px 7px #000);
   }
 
   &__layer-img {
+    @include themed() {
+      background-image: url(t('bgImg'))
+    };
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
