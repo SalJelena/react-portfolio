@@ -21,13 +21,17 @@
     background: t('bg3')
   }
 
-  height: 200px;
+  height: 160px;
   overflow: hidden;
 
   svg {
     @include themed() {
       fill: t('fill')
     }
+  }
+
+  @include media-breakpoint-down(md) {
+    height: 120px;
   }
 
 }
