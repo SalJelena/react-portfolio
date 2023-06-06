@@ -3,6 +3,7 @@ import Banner from "../../components/Banner/Banner.jsx";
 import PortfolioPannel from "../../components/PortfolioPannel/PortfolioPannel.jsx";
 import PageDivider from "../../components/PageDivider/PageDivider.jsx";
 import SkillsPanel from "../../components/SkillsPanel/SkillsPanel.jsx";
+import Contact from "../../components/Contact/Contact.jsx";
 
 const Home = () => {
     return (
@@ -11,7 +12,8 @@ const Home = () => {
             <SkillsPanel/>
             <PageDivider separated={true}/>
             <PortfolioPannel/>
-            <PageDivider separated={false}/>
+            <PageDivider separated={false} rotated={true}/>
+            <Contact/>
         </div>
     )
 }

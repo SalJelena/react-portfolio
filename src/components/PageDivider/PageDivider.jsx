@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PageDivider = ({separated}) => {
+const PageDivider = ({separated, rotated, dark}) => {
     return (
         <div className={`${separated ? "divider__bg-sep" : "divider__bg" }`}>
             {
@@ -9,7 +9,8 @@ const PageDivider = ({separated}) => {
                         preserveAspectRatio="none"
                         viewBox="0 0 1200 120"
                         xmlns="http://www.w3.org/2000/svg"
-                        style={{ width: '320%', height: 137, }}
+                        style={{ width: '320%' }}
+                        className={`${dark ? "divider__svg--dark" : "divider__svg"}`}
                     >
                         <path
                             d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z"
@@ -29,6 +30,7 @@ const PageDivider = ({separated}) => {
                         viewBox="0 0 1200 120"
                         xmlns="http://www.w3.org/2000/svg"
                         style={{  width: '157%', height: 72, transform: 'rotate(180deg)' }}
+                        className={`${rotated ? "divider__svg--rotated" : "divider__svg"}`}
                     >
                         <path d="M321.39 56.44c58-10.79 114.16-30.13 172-41.86 82.39-16.72 168.19-17.73 250.45-.39C823.78 31 906.67 72 985.66 92.83c70.05 18.48 146.53 26.09 214.34 3V0H0v27.35a600.21 600.21 0 00321.39 29.09z" />
                     </svg>

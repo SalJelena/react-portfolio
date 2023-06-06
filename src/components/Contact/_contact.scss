@@ -1,0 +1,100 @@
+.contact {
+  @include themed() {
+    background: t('bg');
+  }
+  padding: 50px 0;
+
+  &__title {
+    margin-bottom: 50px;
+    font-size: 50px;
+    text-align: center;
+    font-family: $font-title;
+    font-weight: 700;
+
+    @include themed() {
+      color: t('text');
+    }
+
+    @include media-breakpoint-down(md) {
+      margin-bottom: 20px;
+      font-size: 30px;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    width: 25%;
+    min-height: 100px;
+    padding: 20px;
+
+    &:hover {
+      .contact__link-arrow {
+        padding-left: 10px;
+      }
+
+      .contact__icon {
+        color: $charcoal;
+      }
+    }
+  }
+
+  &__text {
+    font-family: $font-title;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  &__link {
+    font-family: $font-default;
+    width: 100%;
+    text-decoration: none;
+    color: $black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+
+  &__icon {
+    color: $white-light;
+    font-size: 40px;
+    background: rgba($green-light, 0.7);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+  }
+
+  &__link-name {
+    font-family: $font-default;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+  }
+
+  &__link-arrow {
+    font-size: 20px;
+    position: relative;
+    padding-left: 5px;
+    bottom: -5px;
+    transition: 0.3s ease;
+  }
+
+}

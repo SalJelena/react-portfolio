@@ -27,12 +27,28 @@
   svg {
     @include themed() {
       fill: t('fill')
-    }
+    };
+    height: 137px;
   }
 
   @include media-breakpoint-down(md) {
     height: 120px;
   }
 
+}
+
+.divider__svg--rotated {
+  @include themed() {
+    fill: t('fill');
+    background: t('bg3');
+  }
+}
+
+.divider__svg--dark {
+  @include themed() {
+    fill: t('fill');
+    background: t('bg2')
+  }
+  height: 163px !important;
 }
 
