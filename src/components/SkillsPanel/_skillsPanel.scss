@@ -1,6 +1,10 @@
 .skills {
   padding: 20px 0;
 
+  @include themed() {
+    background-color: t('bg');
+  }
+
   @include media-breakpoint-down(md) {
     padding: 10px 0;
   }

@@ -23,7 +23,6 @@ const SkillsPanel = () => {
             <div className="wrap">
                 <div className="skills__inner">
                     {renderedIcons()}
-
                 </div>
             </div>
         </div>

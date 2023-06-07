@@ -57,8 +57,10 @@
       flex-direction: row;
     }
 
-    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(sm) {
       width: 100%;
+      padding: 0;
+      margin: 0 0 20px 0;
     }
   }
 
@@ -81,9 +83,15 @@
     position: relative;
 
     @include media-breakpoint-down(lg) {
-      flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
+      align-items: center;
     }
+
+    @include media-breakpoint-down(sm) {
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
   }
 
   &__icon {
@@ -100,27 +108,30 @@
     margin-bottom: 20px;
     transition: 0.3s ease;
 
-    @include media-breakpoint-down(lg) {
-      margin-bottom: 0;
-    }
-
     @include media-breakpoint-down(sm) {
       width: 50px;
       height: 50px;
       font-size: 25px;
+      margin-right: 0;
+      margin-bottom: 15px;
     }
   }
 
   &__content {
+    @include themed() {
+      color: t('text');
+    }
     @include media-breakpoint-down(lg) {
       width: 70%;
       display: flex;
       align-items: center;
-      justify-content: flex-start;
+      justify-content: center;
     }
 
     @include media-breakpoint-down(sm) {
       width: 100%;
+      align-items: flex-start;
+      justify-content: flex-start;
     }
   }
 

@@ -14,7 +14,9 @@ const Card = ({el}) => {
     return (
         <button className="card">
             <div className="card__img-holder">
-                <div style={{backgroundImage: "url(" + el?.img + ")"}} className="card__img"></div>
+                <div style={{backgroundImage: "url(" + el?.img + ")"}} className="card__img">
+                    <div className="card__img-layer"></div>
+                </div>
             </div>
             <div className="card__text">
                 <h3 className="card__title">{el.title}</h3>
