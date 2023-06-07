@@ -26,6 +26,11 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+
+    @include media-breakpoint-down(lg) {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
   }
 
   &__item {
@@ -33,7 +38,7 @@
     flex-direction: column;
     align-items: center;
     margin: 0 20px;
-    width: 25%;
+    width: 27%;
     min-height: 100px;
     padding: 20px;
 
@@ -45,6 +50,15 @@
       .contact__icon {
         color: $charcoal;
       }
+    }
+
+    @include media-breakpoint-down(lg) {
+      width: 50%;
+      flex-direction: row;
+    }
+
+    @include media-breakpoint-down(md) {
+      width: 100%;
     }
   }
 
@@ -65,6 +79,11 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
+
+    @include media-breakpoint-down(lg) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
   }
 
   &__icon {
@@ -80,6 +99,29 @@
     margin-right: 15px;
     margin-bottom: 20px;
     transition: 0.3s ease;
+
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 0;
+    }
+
+    @include media-breakpoint-down(sm) {
+      width: 50px;
+      height: 50px;
+      font-size: 25px;
+    }
+  }
+
+  &__content {
+    @include media-breakpoint-down(lg) {
+      width: 70%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
   }
 
   &__link-name {
@@ -95,6 +137,10 @@
     padding-left: 5px;
     bottom: -5px;
     transition: 0.3s ease;
+
+    @include media-breakpoint-down(lg) {
+      bottom: -3px;
+    }
   }
 
 }

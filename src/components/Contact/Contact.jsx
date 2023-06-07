@@ -10,7 +10,7 @@ const Contact = () => {
 
                 <Link to={el.link} className="contact__link" target="_blank" rel="noopener noreferrer">
                     <div className="contact__icon">{el.icon}</div>
-                    <div className="contct__content">
+                    <div className="contact__content">
                         <span className="contact__link-name">{el.linkName}</span>
                         <span className="contact__link-arrow">
                             <BsArrowRight/>
