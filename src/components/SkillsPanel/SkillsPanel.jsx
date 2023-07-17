@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {skills} from "../../utils/constants.jsx";
 import {Autoplay, Navigation, Scrollbar} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";

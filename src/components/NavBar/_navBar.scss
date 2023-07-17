@@ -25,6 +25,7 @@
 
     &:hover {
       .nav__link {
+        cursor: pointer;
         @include themed() {
           color: t('text-hover');
         }

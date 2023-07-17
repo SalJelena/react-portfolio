@@ -1,25 +1,29 @@
 // ----------  layout
 // ------------------------------------------------------------------------------
 html {
-  position: fixed;
-  height: 100%;
-  overflow: hidden;
+  //position: fixed;
+  //height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  //overflow: hidden;
 }
 
 body {
   font-size: 14px;
   font-weight: 400;
-  color: black;
+  color: yellow;
   font-family: $font-default;
   width: 100vw;
   height: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
+  //overflow: auto;
+  //overflow-y: auto;
+  //overflow-x: hidden;
+  //-webkit-overflow-scrolling: touch;
 }
 
 #root {
-  overflow-x: hidden;
+  //overflow-x: hidden;
+  overflow: auto;
 }
 
 .wrap {

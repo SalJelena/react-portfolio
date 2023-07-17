@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import {Trans, useTranslation} from "react-i18next";
 import profileImg from "../../assets/images/profile.png"
 import bgImage from "../../assets/images/svg/shape-2.svg"
 import {HiOutlineDownload} from "react-icons/hi";
 
-const Banner = () => {
+const Banner = ({ bannerSection }) => {
     const {t, i18n} = useTranslation()
 
+
     return (
-        <div className="banner">
+        <div className="banner" id='home'>
             <div className="wrap">
                 <div className="banner__inner">
                     <div className="banner__left">

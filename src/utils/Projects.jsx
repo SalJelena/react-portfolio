@@ -10,9 +10,9 @@ export const projects = [
         "img": "src/assets/images/medix.jpg"
     },
     {
-        "title": "Budget calculator",
+        "title": "Social Network",
         "tags": [
-            "React", "SCSS",  "redux toolkit",
+            "React", "Tailwind",  "Redux toolkit", "Nodejs", "MongoDB", "express.js"
         ],
         "github": "/",
         "live": "/",
@@ -21,37 +21,19 @@ export const projects = [
     {
         "title": "Game hub",
         "tags": [
-            "react", "TypeScript", "Tailwind", "React Query"
+            "react", "TypeScript", "Tailwind", "React Query", "Zustand"
         ],
         "github": "/",
         "live": "/",
         "img": "src/assets/images/travel-promo.jpg"
     },
     {
-        "title": "Space-X API",
-        "tags": [
-            "HTML", "SCSS", "JavaScript"
-        ],
-        "github": "/",
-        "live": "/",
-        "img": "src/assets/images/space-x.jpg"
-    },
-    {
         "title": "Countries website",
         "tags": [
-            "HTML", "SCSS", "JavaScript"
+            "HTML", "SCSS", "JavaScript", "API", "Axios"
         ],
-        "github": "/",
-        "live": "/",
+        "github": "https://github.com/SalJelena/countries-preview-app",
+        "live": "https://previewcountries.netlify.app/",
         "img": "src/assets/images/countries-site.jpg"
-    },
-    {
-        "title": "To do list",
-        "tags": [
-            "HTML", "SCSS", "JavaScript"
-        ],
-        "github": "/",
-        "live": "/",
-        "img": "src/assets/images/to-do.jpg"
     }
 ]

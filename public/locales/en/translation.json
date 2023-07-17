@@ -1,5 +1,18 @@
 {
-  "tabs": ["Home", "Portfolio", "Contact"],
+  "tabs": [
+    {
+      "name": "home",
+      "section": "bannerSection"
+    },
+    {
+      "name": "portfolio",
+      "section": "portfolioSection"
+    },
+    {
+      "name": "Contact",
+      "section": "contactSection"
+    }
+  ],
   "greeting": "Hello, I am",
   "name": "Jelena",
   "information": "Frontend developer",
