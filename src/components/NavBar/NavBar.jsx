@@ -1,7 +1,9 @@
 import React from 'react'
-import {useTranslation} from "react-i18next";
+import {Trans, useTranslation} from "react-i18next";
 import {Link} from "react-scroll";
 import PageDivider from "../PageDivider/PageDivider.jsx";
+import {AiFillHome, AiOutlineMail} from "react-icons/ai";
+import {RiComputerFill} from "react-icons/ri";
 
 const NavBar = () => {
     const {t, i18n} = useTranslation()
@@ -23,7 +25,12 @@ const NavBar = () => {
                                     duration={500} 
                                     className="nav__link" 
                                     >
-                                    Home
+                                        <span className='nav__link-mobile'>
+                                            <AiFillHome/>
+                                        </span>
+                                        <span className='nav__link-desk'>
+                                            <Trans i18nKey="homeNav"></Trans>
+                                        </span>
                                 </Link>
                             </li>
                             <li className="nav__item">
@@ -35,7 +42,13 @@ const NavBar = () => {
                                     duration={500} 
                                     className="nav__link" 
                                     >
-                                    Portfolio
+                                        <span className='nav__link-mobile'>
+                                            <RiComputerFill/>
+                                        </span>
+                                        <span className='nav__link-desk'>
+                                            <Trans i18nKey="portfolioNav"></Trans>
+                                        </span>
+                                    
                                 </Link>
                             </li>
                             <li className="nav__item">
@@ -47,7 +60,13 @@ const NavBar = () => {
                                     duration={500} 
                                     className="nav__link" 
                                     >
-                                    Contact
+                                        <span className='nav__link-mobile'>
+                                            <AiOutlineMail/>
+                                        </span>
+                                        <span className='nav__link-desk'>
+                                            <Trans i18nKey="contactNav"></Trans>
+                                        </span>
+                                    
                                 </Link>
                             </li>
                         </ul>

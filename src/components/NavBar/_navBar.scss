@@ -13,9 +13,6 @@
     width: 100%;
     justify-content: center;
 
-    @include media-breakpoint-down(sm) {
-      justify-content: space-between;
-    }
   }
 
   &__item {
@@ -23,6 +20,7 @@
     padding: 20px 0;
     margin: 0 8%;
 
+    
     &:hover {
       .nav__link {
         cursor: pointer;
@@ -31,9 +29,12 @@
         }
       }
 
-      .nav__link::after {
-        width: 100%;
+      @include media-breakpoint-up(md) {
+        .nav__link::after {
+          width: 100%;
+        }
       }
+      
     }
 
     @include media-breakpoint-down(sm) {
@@ -66,7 +67,24 @@
     }
 
     @include media-breakpoint-down(sm) {
-      font-size: 14px;
+      font-size: 25px;
+    }
+  }
+
+  &__link-mobile {
+    display: none;
+
+    @include media-breakpoint-down(sm) {
+      display: block;
+    }
+
+  }
+
+  &__link-desk {
+    //display: block;
+
+    @include media-breakpoint-down(sm) {
+      display: none;
     }
   }
 

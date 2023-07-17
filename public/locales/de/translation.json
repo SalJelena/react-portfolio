@@ -1,5 +1,8 @@
 {
   "tabs": ["Home", "Portfolio", "Kontakt"],
+  "homeNav": "Home",
+  "portfolioNav": "Portfolio",
+  "contactNav": "Kontact",
   "greeting": "Hallo, Ich bin",
   "name": "Jelena",
   "information": "Frontend entwicklerin",
