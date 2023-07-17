@@ -3,7 +3,7 @@ import {contactInfo} from "../../utils/constants.jsx";
 
 import {BsArrowRight} from "react-icons/bs";
 
-const Contact = ({ contactSection }) => {
+const Contact = () => {
     const renderedInfo = () => {
         return contactInfo.map((el, index) => {
             return <div key={index} className="contact__item">

@@ -4,7 +4,7 @@ import profileImg from "../../assets/images/profile.png"
 import bgImage from "../../assets/images/svg/shape-2.svg"
 import {HiOutlineDownload} from "react-icons/hi";
 
-const Banner = ({ bannerSection }) => {
+const Banner = () => {
     const {t, i18n} = useTranslation()
 
 

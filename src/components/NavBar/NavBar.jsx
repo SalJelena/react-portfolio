@@ -3,10 +3,10 @@ import {useTranslation} from "react-i18next";
 import {Link} from "react-scroll";
 import PageDivider from "../PageDivider/PageDivider.jsx";
 
-const NavBar = ({ bannerSection, portfolioSection, contactSection }) => {
+const NavBar = () => {
     const {t, i18n} = useTranslation()
 
-    const tabs = t('tabs', { returnObjects: true });
+    //const tabs = t('tabs', { returnObjects: true });
 
     return (
         <>

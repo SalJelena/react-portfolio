@@ -5,15 +5,15 @@ import PageDivider from "../../components/PageDivider/PageDivider.jsx";
 import SkillsPanel from "../../components/SkillsPanel/SkillsPanel.jsx";
 import Contact from "../../components/Contact/Contact.jsx";
 
-const Home = ({ bannerSection, portfolioSection, contactSection }) => {   
+const Home = () => {   
     return (
         <div className="home">
-            <Banner bannerSection={bannerSection} />
+            <Banner/>
             <SkillsPanel/>
             <PageDivider separated={true}/>
-            <PortfolioPannel portfolioSection={portfolioSection} />
+            <PortfolioPannel/>
             <PageDivider separated={false} rotated={true}/>
-            <Contact contactSection={contactSection} />
+            <Contact/>
         </div>
     )
 }
