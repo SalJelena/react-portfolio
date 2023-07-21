@@ -43,7 +43,7 @@ $themes: (
                 text-accent: $charcoal,
                 fill: $white-light,
                 underline: "src/assets/images/svg/line-3.svg",
-                bgImg: "src/assets/images/svg/shape-2.svg",
+                bgImg: "./src/assets/images/svg/shape-2.svg",
                 btn: $white-light,
                 btn-sec: $green-light
         ),
@@ -57,7 +57,7 @@ $themes: (
                 text-accent: $green-bright,
                 fill: $blue-dark,
                 underline: "src/assets/images/svg/line-4.svg",
-                bgImg: "src/assets/images/svg/shape-3.svg",
+                bgImg: "./src/assets/images/svg/shape-3.svg",
                 btn: $blue,
                 btn-sec: $green-light
         ),
