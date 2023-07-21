@@ -13,7 +13,7 @@ const Card = ({el}) => {
     return (
         <button className="card">
             <div className="card__img-holder">
-                <div style={{backgroundImage: "url(" + el?.img + ")"}} className="card__img">
+                <div style={{backgroundImage: "url(" + el.img + ")"}} className="card__img">
                     <div className="card__img-layer"></div>
                 </div>
             </div>
