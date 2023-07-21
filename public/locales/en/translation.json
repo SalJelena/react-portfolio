@@ -14,5 +14,8 @@
   "skills": "Skills & Technologies",
   "projectsTitle": "Projects",
   "contactTitle": "Contact me",
-  "downloadCV": "Download CV"
+  "downloadCV": "Download CV",
+  "contactSection": "Contact",
+  "linkedInTitle": "Check out my LinkedIn",
+  "githubTitle": "Check out my Github"
 }
