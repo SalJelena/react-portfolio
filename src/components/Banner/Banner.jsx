@@ -3,10 +3,10 @@ import {Trans, useTranslation} from "react-i18next";
 import profileImg from "../../assets/images/profile.png"
 import bgImage from "../../assets/images/svg/shape-2.svg"
 import {HiOutlineDownload} from "react-icons/hi";
+import CV from "../../assets/Jelena Salopek CV.pdf"
 
 const Banner = () => {
     const {t, i18n} = useTranslation()
-
 
     return (
         <div className="banner" id='home'>
@@ -27,13 +27,13 @@ const Banner = () => {
                         <p className="banner__text"><Trans i18nKey="description1"></Trans></p>
                         <p className="banner__text"><Trans i18nKey="description2"></Trans></p>
                         <div className="banner__btns">
-                            <button type="button" className="button button--primary">
+                            <a href={CV} download className="button button--primary button--link">
                                 <span className="button__icon"><HiOutlineDownload/></span>
                                 <Trans i18nKey="downloadCV"></Trans>
-                            </button>
-                            <button type="button" className="button button--secondary">
+                            </a>
+                            <a href='mailto:salopekjelena24@gmail.com' className="button button--secondary">
                                 <Trans i18nKey="contactTitle"></Trans>
-                            </button>
+                            </a>
                         </div>
                     </div>
 

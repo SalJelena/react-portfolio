@@ -14,18 +14,18 @@ export const projects = [
         "tags": [
             "React", "Tailwind",  "Redux toolkit", "Nodejs", "MongoDB", "express.js"
         ],
-        "github": "/",
-        "live": "/",
-        "img": "src/assets/images/budget-app.jpg"
+        "github": "https://github.com/SalJelena/social-net/tree/main",
+        "live": "https://social-net-blog.vercel.app",
+        "img": "src/assets/images/social-net.jpg"
     },
     {
         "title": "Game hub",
         "tags": [
-            "react", "TypeScript", "Tailwind", "React Query", "Zustand"
+            "react", "TypeScript", "ChakraUI", "React Query", "Zustand"
         ],
-        "github": "/",
-        "live": "/",
-        "img": "src/assets/images/travel-promo.jpg"
+        "github": "https://github.com/SalJelena/ts-react-game-hub",
+        "live": "https://game-hub-ts.vercel.app/",
+        "img": "src/assets/images/game-hub.jpg"
     },
     {
         "title": "Countries website",

@@ -49,6 +49,10 @@ button {
   }
 }
 
+.button--link {
+  margin-right: 15px;
+}
+
 .button--primary {
   @include themed() {
     color: t('text');
