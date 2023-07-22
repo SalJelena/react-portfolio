@@ -132,9 +132,9 @@
   }
 
   &__layer-img {
-    @include themed() {
-      background-image: url(t('bgImg'))
-    };
+    // @include themed() {
+    //   background-image: url(t('bgImg'))
+    // };
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
