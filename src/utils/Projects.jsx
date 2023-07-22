@@ -12,7 +12,7 @@ export const projects = [
         ],
         "github": "https://github.com/SalJelena/MERN-medxstore",
         "live": "https://medixstore-fe.vercel.app/",
-        "img": "public/static/images/medix.jpg"
+        "img": "/static/images/medix.jpg"
     },
     {
         "title": "Social Network",
@@ -21,7 +21,7 @@ export const projects = [
         ],
         "github": "https://github.com/SalJelena/social-net/tree/main",
         "live": "https://social-net-blog.vercel.app",
-        "img": "public/static/images/social-net.jpg"
+        "img": "/static/images/social-net.jpg"
     },
     {
         "title": "Game hub",
@@ -30,7 +30,7 @@ export const projects = [
         ],
         "github": "https://github.com/SalJelena/ts-react-game-hub",
         "live": "https://game-hub-ts.vercel.app/",
-        "img": "public/static/images/game-hub.jpg"
+        "img": "/static/images/game-hub.jpg"
     },
     {
         "title": "Countries website",
@@ -39,6 +39,6 @@ export const projects = [
         ],
         "github": "https://github.com/SalJelena/countries-preview-app",
         "live": "https://previewcountries.netlify.app/",
-        "img": "public/static/images/countries-site.jpg"
+        "img": "/static/images/countries-site.jpg"
     }
 ]
