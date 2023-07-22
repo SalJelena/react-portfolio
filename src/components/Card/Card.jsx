@@ -13,10 +13,10 @@ const Card = ({el}) => {
     return (
         <button className="card">
             <div className="card__img-holder">
-                <img src={el.img} />
-                {/* <div style={{backgroundImage: "url(" + el.img + ")"}} className="card__img">
+                {/* <img src={el.img} /> */}
+                <div style={{backgroundImage: "url(" + el.img + ")"}} className="card__img">
                     <div className="card__img-layer"></div>
-                </div> */}
+                </div>
             </div>
             <div className="card__text">
                 <h3 className="card__title">{el.title}</h3>
