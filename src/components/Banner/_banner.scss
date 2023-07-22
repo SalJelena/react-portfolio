@@ -27,6 +27,7 @@
     position: relative;
     width: 500px;
     height: 400px;
+    overflow-y: hidden;
 
     @include media-breakpoint-down(md) {
       width: 100%;
@@ -129,6 +130,8 @@
 
   &__img {
     width: 100%;
+    position: relative;
+    bottom: -50px;
   }
 
   &__layer-img {

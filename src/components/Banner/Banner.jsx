@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import {Trans, useTranslation} from "react-i18next";
 import profileImg from "../../assets/images/profile.png"
-import bgImage from "../../assets/svg/shape-2.svg"
+import bgImage from "../../assets/svg/shape-4.svg"
 import {HiOutlineDownload} from "react-icons/hi";
 import CV from "../../assets/Jelena Salopek CV.pdf"
 
