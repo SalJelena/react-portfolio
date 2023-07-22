@@ -1,3 +1,8 @@
+import medixImg from "../assets/images/medix.jpg"
+import socialImg from "../assets/images/social-net.jpg"
+import gameImg from "../assets/images/game-hub.jpg"
+import countriesImg from "../assets/images/countries-site.jpg"
+
 export const projects = [
     {
         "title": "E-commerce shop",
@@ -7,7 +12,7 @@ export const projects = [
         ],
         "github": "https://github.com/SalJelena/MERN-medxstore",
         "live": "https://medixstore-fe.vercel.app/",
-        "img": "/src/assets/images/medix.jpg"
+        "img": medixImg
     },
     {
         "title": "Social Network",
@@ -16,7 +21,7 @@ export const projects = [
         ],
         "github": "https://github.com/SalJelena/social-net/tree/main",
         "live": "https://social-net-blog.vercel.app",
-        "img": "/src/assets/images/social-net.jpg"
+        "img": socialImg
     },
     {
         "title": "Game hub",
@@ -25,7 +30,7 @@ export const projects = [
         ],
         "github": "https://github.com/SalJelena/ts-react-game-hub",
         "live": "https://game-hub-ts.vercel.app/",
-        "img": "/src/images/game-hub.jpg"
+        "img": gameImg
     },
     {
         "title": "Countries website",
@@ -34,6 +39,6 @@ export const projects = [
         ],
         "github": "https://github.com/SalJelena/countries-preview-app",
         "live": "https://previewcountries.netlify.app/",
-        "img": "/src/images/countries-site.jpg"
+        "img": countriesImg
     }
 ]
