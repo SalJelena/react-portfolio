@@ -1,10 +1,9 @@
 import React, { useRef } from 'react'
 //import {projects} from "../../utils/Projects.jsx";
-import medixImg from "../../assets/images/medix.jpg"
-import socialImg from "../../assets/images/social-net.jpg"
-import gameImg from "../../assets/images/game-hub.jpg"
-import countriesImg from "../../assets/images/countries-site.jpg"
-
+// import medixImg from "../assets/images/medix.jpg"
+// import socialImg from "../assets/images/social-net.jpg"
+// import gameImg from "../assets/images/game-hub.jpg"
+// import countriesImg from "../assets/images/countries-site.jpg"
 import Card from "../Card/Card.jsx";
 import {Trans, useTranslation} from "react-i18next";
 
@@ -20,7 +19,7 @@ const PortfolioPannel = () => {
             ],
             "github": "https://github.com/SalJelena/MERN-medxstore",
             "live": "https://medixstore-fe.vercel.app/",
-            "img": medixImg
+            "img": "/static/images/medix.jpg"
         },
         {
             "title": "Social Network",
@@ -29,7 +28,7 @@ const PortfolioPannel = () => {
             ],
             "github": "https://github.com/SalJelena/social-net/tree/main",
             "live": "https://social-net-blog.vercel.app",
-            "img": socialImg
+            "img": "/static/images/social-net.jpg"
         },
         {
             "title": "Game hub",
@@ -38,7 +37,7 @@ const PortfolioPannel = () => {
             ],
             "github": "https://github.com/SalJelena/ts-react-game-hub",
             "live": "https://game-hub-ts.vercel.app/",
-            "img": gameImg
+            "img": "/static/images/game-hub.jpg"
         },
         {
             "title": "Countries website",
@@ -47,7 +46,7 @@ const PortfolioPannel = () => {
             ],
             "github": "https://github.com/SalJelena/countries-preview-app",
             "live": "https://previewcountries.netlify.app/",
-            "img": countriesImg
+            "img": "/static/images/countries-site.jpg"
         }
     ]
 

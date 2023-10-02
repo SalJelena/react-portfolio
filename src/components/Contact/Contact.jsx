@@ -47,7 +47,7 @@ const Contact = () => {
                         </div>
                         <div className="contact__item">
                             <a href="https://github.com/SalJelena" className="contact__link" target="_blank" rel="noopener noreferrer">
-                                <div className="contact__icon"><AiOutlineLinkedin/></div>
+                                <div className="contact__icon"><AiOutlineGithub/></div>
                                 <div className="contact__content">
                                     <span className="contact__link-name">
                                         <Trans i18nKey="githubTitle"></Trans>
